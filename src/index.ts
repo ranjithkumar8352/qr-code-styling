@@ -6,19 +6,6 @@ import errorCorrectionLevels from "./constants/errorCorrectionLevels";
 import errorCorrectionPercents from "./constants/errorCorrectionPercents";
 import modes from "./constants/modes";
 import qrTypes from "./constants/qrTypes";
-import drawTypes from "./constants/drawTypes";
 
-export * from "./types";
-
-export {
-  dotTypes,
-  cornerDotTypes,
-  cornerSquareTypes,
-  errorCorrectionLevels,
-  errorCorrectionPercents,
-  modes,
-  qrTypes,
-  drawTypes
-};
-
+export { dotTypes, cornerDotTypes, cornerSquareTypes, errorCorrectionLevels, errorCorrectionPercents, modes, qrTypes };
 export default QRCodeStyling;
